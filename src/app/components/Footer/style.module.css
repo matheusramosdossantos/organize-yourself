@@ -1,0 +1,42 @@
+.footer {
+  padding: 0;
+  margin: 0;
+  background-color: #100050;
+  color: #ffffff;
+  box-shadow: 0px 0px 50px 1px #100090 inset;
+}
+
+.mainDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.informationsDivs {
+  width: 50vh;
+  text-align: center;
+  margin: 1rem;
+}
+
+.icons {
+  height: 10vh;
+  width: auto;
+  margin: 1rem;
+  border-radius: 10%;
+  transition: 0.5s;
+}
+
+.icons:hover {
+  transform: scale(1.1);
+}
+
+.copyright {
+  border-top: solid var(--secondary-color) 1px;
+  text-align: center;
+  padding: 2rem;
+}
+
+.h1 {
+  color: var(--secondary-color);
+}
